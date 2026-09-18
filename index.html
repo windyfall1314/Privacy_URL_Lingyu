@@ -27,7 +27,7 @@
     <main>
       <article>
         <h1>灵羽隐私政策</h1>
-        <p class="meta">更新日期：<span class="meta">2026年9月17日</span><br />生效日期：<span class="meta">2026年9月17日</span><br />版本号：<span class="meta">1.0</span></p>
+        <p class="meta">更新日期：<span class="meta">2026年9月18日</span><br />生效日期：<span class="meta">2026年9月18日</span><br />版本号：<span class="meta">2026.09.18</span></p>
 
         <p>欢迎使用“灵羽”（以下简称“本应用”）。湖州易合天成信息技术有限公司（联系地址：浙江省湖州市南浔区东迁街道适园西路585号长三角高层次人才科创基地7号楼629办公室，以下简称“我们”）重视并保护你的个人信息。本政策说明我们在提供家庭设备管理、设备连接、AI 故事陪伴、日程提醒、家庭视频、语音及音色克隆、硬件预约等服务时，如何收集、使用、保存、共享、转让、公开披露和保护你的个人信息，以及你如何行使相关权利。</p>
 
@@ -78,13 +78,16 @@
         <table>
           <thead><tr><th>服务类别/服务商</th><th>可能处理的信息</th><th>目的</th><th>说明</th></tr></thead>
           <tbody>
-            <tr><td>短信验证服务（阿里云短信或实际配置的等效服务商）</td><td>手机号、验证码发送状态</td><td>发送登录或安全验证验证码</td><td>请在发布前填写实际服务商名称、隐私政策链接及数据处理地点</td></tr>
-            <tr><td>AI 与语音服务（阿里云百炼/DashScope 或实际启用的服务商）</td><td>你主动提交的文本、语音内容；启用音色功能时的声音样本及必要特征</td><td>文本生成、语音识别、语音合成、音色处理</td><td>仅在你主动使用功能并完成所需同意后调用；请填写实际服务商及隐私政策链接</td></tr>
-            <tr><td>对象存储/媒体服务（阿里云 OSS 或实际配置的服务商）</td><td>经你上传或生成的音频、图像、视频、文件及其必要元数据</td><td>存储、播放、下载或交付媒体文件</td><td>云端媒体保存 5 个工作日后删除或匿名化；仍须在发布前填写实际服务商、存储地域及隐私政策链接</td></tr>
+            <tr><td>阿里云短信服务</td><td>手机号、验证码模板参数、发送请求标识及发送状态</td><td>发送登录或安全验证短信并完成相关校验</td><td>你申请短信时，由灵羽服务器调用阿里云短信接口；数据在中国境内处理。<a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107091605_49213.html" target="_blank" rel="noopener noreferrer">阿里云法律声明及隐私权政策</a></td></tr>
+            <tr><td>通义千问（阿里云百炼 / DashScope）</td><td>你主动输入的文本、语音转写文本、完成当前功能所需的对话上下文及生成结果</td><td>生成 AI 故事、聊天回复和语音交互回复</td><td>你使用相应功能时，由灵羽服务器调用模型服务；数据在中国境内处理。<a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107091605_49213.html" target="_blank" rel="noopener noreferrer">阿里云法律声明及隐私权政策</a></td></tr>
+            <tr><td>阿里云语音服务（百炼 / DashScope）：Qwen ASR、Paraformer、CosyVoice</td><td>你主动提交的音频、待合成文本，以及音色克隆所需的声音样本、训练音频和音色特征</td><td>使用 Qwen ASR、Paraformer 进行语音识别，使用 CosyVoice 进行语音合成和音色克隆</td><td>声音样本经灵羽服务器或其签发的上传链接传输；创建音色时，语音服务读取 OSS 中的训练音频。敏感信息和儿童信息在完成相应单独同意后处理；数据在中国境内处理。<a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107091605_49213.html" target="_blank" rel="noopener noreferrer">阿里云法律声明及隐私权政策</a></td></tr>
+            <tr><td>阿里云对象存储 OSS</td><td>头像、声音样本、合并训练音频、上传至云端的图片、视频和文件，以及文件类型、大小和必要的资源关联标识</td><td>保存、播放、下载和交付上传或生成的文件</td><td>通过灵羽服务器或其签发的限时访问链接传输，存储于中国境内；各类信息的保存规则见本政策第二、八部分。<a href="https://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud202107091605_49213.html" target="_blank" rel="noopener noreferrer">阿里云法律声明及隐私权政策</a></td></tr>
             <tr><td>业务、流媒体与实时通信服务器</td><td>账号和设备标识、控制指令、视频/音频流、媒体文件及必要日志</td><td>账号、设备、实时视频、录像回放和安全运维</td><td>由湖州易合天成信息技术有限公司或其依法委托的服务商提供；请填写服务器部署地域和实际数据处理规则</td></tr>
             <tr><td>Capacitor 及原生功能组件</td><td>经你授权调用的麦克风、蓝牙、文件系统等设备能力返回的数据</td><td>实现跨平台原生能力调用</td><td>该类组件不应自行向其提供方上传你的个人信息；实际集成版本以应用 SDK 清单为准</td></tr>
           </tbody>
         </table>
+
+        <p>上述短信、AI、语音和对象存储由阿里云提供，属于云端服务/API，与应用内集成的原生组件分别列示。灵羽对本应用内的个人信息处理承担相应责任；第三方政策链接不替代本政策对信息处理目的、范围和用户权利的说明。</p>
 
         <p>如发生合并、分立、解散、被宣告破产等导致个人信息转让的情形，我们会要求承接方继续受本政策约束；如承接方变更处理目的、方式或种类，将依法重新取得你的同意。我们不会公开披露你的个人信息，法律法规或取得你单独同意的情形除外。</p>
 
